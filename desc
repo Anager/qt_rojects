@@ -1,0 +1,36 @@
+заметка
+поля 
+   id
+   tittle
+   body
+   type
+   parents
+   tags
+   contacts
+   class style_note
+   links
+методы
+   new(){
+      
+      }
+   save(){}
+   load(){}
+   addParents()
+   addTag()
+   setDefaulfStyle()
+   setStyle()
+   get*/* 
+   
+   
+группа
+поля
+   tittle
+   description
+   childs
+   
+списки
+   групп
+      
+   заметок
+      
+паттерн для создания сообщения (адрес тема подпись)

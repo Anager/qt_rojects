@@ -3,7 +3,7 @@
    id
    tittle
    body
-   type
+   type?
    parents
    list tags
    contacts
@@ -44,9 +44,10 @@ style_note
 http_link
    preview
    body
+   interlink
 методы
    clickable
-   onclick is a a href body
+   onclick is a a href body _ is_interlink?
    set
    get
-   
+   is_interlink

@@ -44,5 +44,9 @@ style_note
 http_link
    preview
    body
+методы
    clickable
    onclick is a a href body
+   set
+   get
+   

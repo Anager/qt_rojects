@@ -1,12 +1,12 @@
 заметка
 поля 
-   id
-   tittle
-   body
+   id _ unsigned int cannot be null
+   tittle - w_char
+   body - class body <like xml,epub,fb2>
    type?
-   parents
+   list parents 
    list tags
-   contacts
+   list contacts
    class style_note
    links
 методы
@@ -17,10 +17,12 @@
    load(){}
    addParents()
    addTag()
+   get*/*2
    setDefaulfStyle()
    setStyle()
-   get*/* 
+   get*/* 2
    show_body
+   set_body
    
 группа
 поля
@@ -51,3 +53,6 @@ http_link
    set
    get
    is_interlink
+   
+   
+маркеры желтый зеленый(done)
